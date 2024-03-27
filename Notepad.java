@@ -57,13 +57,13 @@ public class Notepad implements ActionListener {
         mb.add(help);
 
         ta = new JTextArea();
-        ta.setBounds(5, 20, 470, 460);  // Set rows and columns for JTextArea
+        ta.setBounds(5, 20, 470, 460);  //textarea size
 
         // Add the JTextArea to a JScrollPane
         JScrollPane scrollPane = new JScrollPane(ta);
         scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
        
-         f.add(mb);  // Add the menu bar to the top
+         f.add(mb);  
         f.add(scrollPane);  
         // Add the JScrollPane to the JFrame
          f.setJMenuBar(mb);
